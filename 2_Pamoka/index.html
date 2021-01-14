@@ -58,6 +58,64 @@
           <p id="kmi"></p>
         </div>
       </div>
+
+      <div class="container mx-auto mt-5" style="width: 1000px;">
+        <div class="row mt-5">
+          <div class="col-6">
+            <form id="taskForm">
+              <div class="form-group">
+            <input type="text" id="task" class="form-control" placeholder="Įrašykite, ką norite pridėti į sąrašą">
+            </div>
+          <button type="submit" id="add" class="btn btn-primary mb-2">Pridėti</button>
+        </form>
+        </div>
+      </div>
+    
+        <div class="row">
+          <div class="col-6">
+            <p>Sąrašas:</p>
+            <ul id="list">
+    
+            </ul>
+          </div>
+    
+        </div>
+      </div>
+
+
+      <div class="container mx-auto mt-5" id="block" style="width: 1000px; height: 400px;">
+        <form id="backgroundForm">
+        <div class="form-group">
+          <label for="id_of_select">Pasirinkite kokio fono norėtumėte</label>
+          <select class="form-control" id="id_of_select">
+                <option value="0" selected disabled>--Pasirinkite--</option>
+                <option value="1">Pavasaris</option>
+                <option value="2">Vasara</option>
+                <option value="3">Ruduo</option>
+                <option value="4">Žiema</option>
+            </select>
+        </div>
+        <button id="show" class="btn btn-success">Rodyti</button>
+      </form>
+      </div>
+
+
+      <div class="container mx-auto my-5" style="width: 1000px;">
+        <main class="row">
+          <div class="col-12">
+            <div class="card">
+              <img src="IMG/ruduo.jpg" class="card-img-top" id="top" alt="Ruduo">
+              <div class="card-body">
+                <p class="card-text" id="ctext">Kalnai</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3"><img src="IMG/vasara.jpg" class="img-fluid" id="img1" alt="Vasara" onclick="change('img1')"></div>
+          <div class="col-3"><img src="IMG/ruduo.jpg" class="img-fluid" id="img2" alt="Ruduo" onclick="change('img2')"></div>
+          <div class="col-3"><img src="IMG/ziema.jpg" class="img-fluid" id="img3" alt="Ziema" onclick="change('img3')"></div>
+          <div class="col-3"><img src="IMG/pavasaris.jpg" class="img-fluid" id="img4" alt="pavasaris" onclick="change('img4')"></div>
+        </main>
+      </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
