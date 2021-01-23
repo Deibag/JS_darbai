@@ -95,7 +95,7 @@ document.getElementById('show').addEventListener("click", show);
 function change(img){
     var top = document.querySelector('#top');
     var text = document.querySelector('#ctext');
-    console.log(top);
+    //console.log(top);
     top.src = document.getElementById(img).src;
     text.innerHTML = document.getElementById(img).alt;
 }
