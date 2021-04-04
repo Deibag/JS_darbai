@@ -1,4 +1,3 @@
-# JS_darbai
-JavaScript praktika
+# JS_Practice
 
 GitHub page https://deibag.github.io/JS_darbai/
